@@ -15,5 +15,15 @@ public abstract class Vehicle {
         engine.Start();
     }
 
+    public void drive() {
+        if ((engine.running)) {
+            accelerate();
+        } else {
+            System.out.println(make + " " + model + " is not running.");
+        }
+    }
+
+    abstract void accelerate();
+
 }
 

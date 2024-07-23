@@ -3,7 +3,7 @@ package vehicles;
 public class Engine {
 
     boolean running;
-    String horsepower;
+    int horsepower;
     String fuelType;
 
     public void Start() {
