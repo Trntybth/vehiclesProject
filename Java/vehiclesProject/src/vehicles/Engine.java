@@ -6,5 +6,9 @@ public class Engine {
     String horsepower;
     String fuelType;
 
+    public void Start() {
+        running = true;
+    }
+
 
 }
