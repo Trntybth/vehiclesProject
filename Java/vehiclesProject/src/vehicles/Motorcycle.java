@@ -2,6 +2,7 @@ package vehicles;
 
 public class Motorcycle extends Vehicle {
 
-    private boolean hasSideCar;
-
+    public Motorcycle(String make, String model, boolean hasSideCar) {
+        super(make, model);
+    }
 }
